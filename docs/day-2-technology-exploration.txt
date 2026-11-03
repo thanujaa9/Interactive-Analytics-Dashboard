@@ -1,0 +1,114 @@
+DAY 2 - TECHNOLOGY EXPLORATION
+
+Project: Interactive Analytics Dashboard
+
+Today I explored the main technologies suggested for building the Interactive Analytics Dashboard. I focused on understanding what each technology does and how it will be used in this project.
+
+1. HTML, CSS AND JAVASCRIPT
+
+HTML is used to create the structure of a webpage. CSS is used to style the page, including colours, spacing, fonts and layout. JavaScript adds functionality and makes the page interactive.
+
+These are the basic technologies behind the dashboard interface.
+
+2. REACT.JS
+
+React is a JavaScript library used to build user interfaces. It allows us to divide a page into smaller reusable components.
+
+For this dashboard, components can be created for the sidebar, top navigation bar, summary cards, charts and data table.
+
+I also explored a few important React concepts:
+
+- Components: Separate parts of the user interface that can be reused.
+- JSX: A syntax that allows us to write UI elements in JavaScript.
+- Props: Used to pass data from one component to another.
+- State: Used to store values that can change, such as the selected theme or search input.
+- Hooks: Functions such as useState and useEffect that help manage state and side effects in components.
+
+3. VITE
+
+Vite is a development tool used to create and run a frontend project. It provides a fast development server and updates the browser when code changes.
+
+The planned setup command for creating a React project with Vite is:
+
+npm create vite@latest analytics-dashboard -- --template react
+cd analytics-dashboard
+npm install
+npm run dev
+
+4. TAILWIND CSS
+
+Tailwind CSS is a utility-first CSS framework. It provides ready-to-use classes for styling elements directly in the markup.
+
+It can help us build the dashboard layout, style cards and buttons, manage spacing, and make the interface responsive for different screen sizes.
+
+5. RECHARTS
+
+Recharts is a charting library for React. It provides components that can be used to create charts.
+
+For this project, it can be used to create:
+- Line charts to show changes over time.
+- Bar charts to compare values across categories.
+- Pie or donut charts to show proportions.
+
+The charts will help users understand the dashboard data visually.
+
+6. FETCH API OR AXIOS
+
+Fetch API and Axios are used to send requests to APIs and receive data.
+
+The dashboard will need to get information from a mock REST API or another suitable data source. The received data can then be displayed in summary cards, charts and tables.
+
+I also looked at the importance of handling different API states:
+- Loading: Show a loading message or indicator while data is being fetched.
+- Success: Display the received data.
+- Error: Show a suitable message if the request fails.
+
+7. REACT ROUTER
+
+React Router is used to navigate between different pages in a React application without needing to reload the entire website.
+
+It can be used if the dashboard has separate pages such as Dashboard, Analytics and Settings.
+
+8. GIT AND GITHUB
+
+Git is a version control system that helps track changes made to the project code. GitHub is an online platform where the code repository can be stored and shared.
+
+I reviewed the basic Git workflow, including:
+- git init
+- git add .
+- git commit -m "message"
+- git push
+
+These commands will help track the development work and upload changes to the GitHub repository.
+
+9. PLANNED PROJECT STRUCTURE
+
+I also explored how the project can be divided into folders and components to keep the code organized.
+
+analytics-dashboard/
+  public/
+  src/
+    assets/
+    components/
+      Sidebar.jsx
+      Navbar.jsx
+      SummaryCard.jsx
+      RevenueChart.jsx
+      SalesChart.jsx
+      DataTable.jsx
+    pages/
+      Dashboard.jsx
+      Analytics.jsx
+      Settings.jsx
+    services/
+      api.js
+    hooks/
+    App.jsx
+    main.jsx
+    index.css
+  package.json
+  vite.config.js
+
+10. NEXT STEPS
+
+After exploring the technologies, the next step is to set up the React project using Vite, install the required dependencies and begin creating the basic dashboard layout. I will build the interface in smaller components and then connect it to the data source.
