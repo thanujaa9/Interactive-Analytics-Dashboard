@@ -1,0 +1,39 @@
+DAY 1 - PROJECT UNDERSTANDING AND REQUIREMENT ANALYSIS
+
+Project: Interactive Analytics Dashboard
+
+Today I went through the project requirements and tried to understand what we are expected to build.
+
+The idea of this project is to create a dashboard where business information can be viewed in one place. Instead of checking lots of records separately, users should be able to understand important details like revenue, users, orders and sales through cards, charts and tables.
+
+The main features I identified are:
+
+1. Summary Cards
+These cards will show important numbers such as total revenue, total users, total orders and other key details. This helps users understand the overall business performance quickly.
+
+2. Interactive Charts
+We need to include at least three types of charts: line, bar and pie or donut charts. These will help users understand trends over time and compare different categories.
+
+3. Data Table
+The dashboard will have a table to display detailed records. Users should be able to search for information, sort the records and move between pages using pagination.
+
+4. Light and Dark Theme
+Users should be able to switch between light and dark modes based on their preference.
+
+5. API Integration
+The dashboard data will come from a mock REST API or public API. We also need to handle loading and error states while getting the data.
+
+I also looked at the suggested technologies for the project:
+- React.js for building the user interface.
+- Vite for setting up and running the project.
+- Recharts or Chart.js for creating charts.
+- Tailwind CSS or Material UI for styling.
+- Fetch API or Axios for getting data from the API.
+- React Router for navigation.
+- Git and GitHub for version control and storing the project code.
+
+I started thinking about how to divide the dashboard into smaller parts, such as the sidebar, top bar, summary cards, charts, filters and data table. Keeping these as separate components will make the project easier to organize and work on.
+
+I also considered the initial UI/UX approach, including a clean layout, easy navigation and a design that works on different screen sizes.
+
+Next, I will explore the technologies in more detail, set up the development environment and start building the dashboard step by step.
