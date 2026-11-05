@@ -18,6 +18,7 @@ body {
 
 .sidebar {
   width: 250px;
+  flex-shrink: 0;
   background: #171b2d;
   color: white;
   padding: 28px 18px;
@@ -39,7 +40,7 @@ body {
   letter-spacing: 1px;
 }
 
-.sidebar nav {
+.sidebar-menu {
   display: flex;
   flex-direction: column;
   gap: 9px;
