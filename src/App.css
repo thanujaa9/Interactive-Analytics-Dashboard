@@ -122,8 +122,9 @@ body {
 .page-heading h1 {
   font-size: 27px;
   margin-bottom: 8px;
+  color: #20243a;
+  font-weight: 700;
 }
-
 .page-heading p {
   color: #858ba0;
   font-size: 14px;
