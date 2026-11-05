@@ -1,0 +1,7 @@
+DAY 3 – REACT PROJECT SETUP
+
+Today I started setting up the development environment for the Interactive Analytics Dashboard. I verified the installed versions of Node.js and npm and created a new React application using Vite. During the setup, I selected ESLint for code quality checks and installed the required project dependencies. I also added libraries such as Recharts, Axios, React Router and Lucide React, which will be used for charts, API communication, navigation and icons. Finally, I started the development server and checked that the React application was running successfully. This completed the initial environment setup and prepared the project for dashboard development
+
+
+
+Next Step: Start building the dashboard layout and reusable React components.
